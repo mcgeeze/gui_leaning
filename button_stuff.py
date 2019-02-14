@@ -2,6 +2,7 @@ import tkinter
 
 root = tkinter.Tk()
 
+
 def print_uwu():
     print("UwU")
 
@@ -12,7 +13,6 @@ button1.config(text="Owo?",
                bg="pink",
                font=("Comic Sans MS", "25"),
                command=print_uwu)
-
 
 
 button1.grid()
